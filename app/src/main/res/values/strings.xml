@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">流量记录</string>
+    <string name="app_subtitle">整机与分应用流量统计</string>
+
+    <string name="permission_badge">需要授权</string>
+    <string name="permission_title">开启使用情况访问</string>
+    <string name="permission_desc">系统流量统计属于敏感数据。请点击下方按钮，在系统设置中为「流量记录」开启“使用情况访问”权限，然后返回本应用。</string>
+    <string name="permission_note">所有数据只保存在本机，不会上传。</string>
+    <string name="open_usage_access_settings">去开启使用情况访问权限</string>
+    <string name="open_settings_failed">无法打开系统设置，请手动前往“设置 → 应用 → 特殊应用权限 → 使用情况访问”开启</string>
+
+    <string name="summary_title">本期累计</string>
+    <string name="period_start_format">统计自 %1$s</string>
+    <string name="period_start_unknown">统计自 —</string>
+    <string name="summary_placeholder">—</string>
+    <string name="summary_network_values">下载 %1$s / 上传 %2$s</string>
+    <string name="summary_load_failed">本期累计读取失败</string>
+    <string name="collect_traffic">采集流量</string>
+    <string name="collect_hint">本期统计从首次使用或上次重置开始；系统统计有延迟，仅供自用参考。</string>
+    <string name="collecting">正在读取系统流量…</string>
+    <string name="collect_success">已采集并更新本期统计</string>
+    <string name="collect_permission_revoked">使用情况访问权限已被关闭，请重新开启</string>
+    <string name="collect_failed_default">读取系统流量失败，请稍后重试</string>
+    <string name="collect_retry_error">系统暂时无法读取流量，请稍后重试</string>
+    <string name="collect_no_valid_data">系统未返回有效的流量数据，请稍后重试</string>
+    <string name="collect_clock_error">本机时间早于上一条采集记录，请检查系统时间后重试</string>
+    <string name="loading_records">正在读取本地记录…</string>
+    <string name="load_records_error_short">读取本地记录失败，请稍后重试</string>
+
+    <string name="reset_stats">重置统计</string>
+    <string name="reset_confirm_title">重置本期统计？</string>
+    <string name="reset_confirm_message">将清空当前采集明细，并从现在开始重新累计。此操作不可撤销。</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_reset">确认重置</string>
+    <string name="resetting">正在重置统计…</string>
+    <string name="reset_success">统计已重置，从现在开始重新累计</string>
+    <string name="reset_busy">采集中，暂时不能重置</string>
+
+    <string name="history_title">采集明细</string>
+    <string name="history_order">最新在前</string>
+    <string name="empty_records">暂无采集明细\n点击「采集流量」开始记录</string>
+    <string name="network_mobile">移动网络</string>
+    <string name="network_wifi">WiFi</string>
+    <string name="label_download">下载</string>
+    <string name="label_upload">上传</string>
+
+    <string name="action_back">返回</string>
+    <string name="app_usage_open">各应用用量</string>
+    <string name="app_usage_title">应用流量</string>
+    <string name="app_usage_period">本期 · 统计自 %1$s</string>
+    <string name="app_usage_period_unknown">本期应用流量</string>
+    <string name="app_usage_total">应用合计</string>
+    <string name="app_usage_total_values">下载 %1$s · 上传 %2$s</string>
+    <string name="app_usage_count">共 %1$d 项</string>
+    <string name="app_usage_note">按系统 UID 统计。共享 UID、系统服务、已卸载应用、热点共享及 VPN 的流量可能无法准确归属，应用合计与本期整机总量可能存在差异。</string>
+    <string name="app_usage_loading">正在读取应用流量…</string>
+    <string name="app_usage_empty_mobile">本期暂无移动网络应用流量</string>
+    <string name="app_usage_empty_wifi">本期暂无 WiFi 应用流量</string>
+    <string name="app_usage_load_failed">读取应用流量失败，请稍后重试</string>
+    <string name="app_usage_retry">重新加载</string>
+    <string name="app_usage_refresh">刷新</string>
+    <string name="app_usage_shared_uid">%1$s 等 %2$d 个应用</string>
+    <string name="app_usage_system_group">系统与其他</string>
+    <string name="app_usage_system_group_detail">%1$d 个未关联应用的 UID</string>
+    <string name="app_usage_breakdown">↓ %1$s · ↑ %2$s</string>
+</resources>

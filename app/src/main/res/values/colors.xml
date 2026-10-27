@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#F5F8F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_tint">#EAF8F4</color>
+    <color name="surface_tint_pressed">#D8EFE9</color>
+    <color name="outline">#DFEBE7</color>
+
+    <color name="primary">#0F766E</color>
+    <color name="primary_pressed">#115E59</color>
+    <color name="primary_disabled">#A7C7C3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="success">#0F766E</color>
+    <color name="error">#B91C1C</color>
+
+    <color name="badge_wifi_bg">#E0F2FE</color>
+    <color name="badge_wifi_text">#0369A1</color>
+    <color name="badge_mobile_bg">#EDE9FE</color>
+    <color name="badge_mobile_text">#6D28D9</color>
+    <color name="badge_warning_bg">#FEF3C7</color>
+    <color name="badge_warning_text">#92400E</color>
+    <color name="badge_neutral_bg">#E9F1EF</color>
+    <color name="badge_neutral_text">#475569</color>
+</resources>

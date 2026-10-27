@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.yh.trafficstats'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.yh.trafficstats'
+        minSdk 30
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// 纯单机应用，不引入 AndroidX 或任何第三方依赖。
+dependencies {
+}
+
+// 统一输出文件名；debug/release 仍分别在各自目录下。
+androidComponents {
+    onVariants(selector().all()) { variant ->
+        variant.outputs.forEach { output ->
+            output.outputFileName.set("流量记录.apk")
+        }
+    }
+}
